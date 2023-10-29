@@ -4,30 +4,32 @@ import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link } from "@nextui-or
 
 function Nav() {
   return (
-    <>
+    <nav className=''>
       <Navbar className='p-10 justify-center'>
         <NavbarBrand position="static" >
-          <p className="font-bold text-inherit">Free Project</p>
+          <Link href='/'>
+            <p className="font-bold text-inherit">Portifólio</p>
+          </Link>
         </NavbarBrand>
         <NavbarContent className="hidden sm:flex gap-4" justify="center">
-          <NavbarItem>
-            <Link color="foreground" href="/dashboard">
-              Features
-            </Link>
-          </NavbarItem>
           <NavbarItem isActive>
-            <Link href="/cards" aria-current="page">
-              Customers
+            <Link href="/blog" aria-current="page">
+              Blog
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link color="foreground" href="#">
-              Integrations
+            <Link color="foreground" href="/gallery">
+              Galeria
+            </Link>
+          </NavbarItem>
+          <NavbarItem>
+            <Link color="foreground" href="/about">
+              Sobre
             </Link>
           </NavbarItem>
         </NavbarContent>
       </Navbar>
-    </>
+    </nav>
   );
 }
 
