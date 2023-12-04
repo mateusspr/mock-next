@@ -8,7 +8,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Link from 'next/link';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 
-export default function ImgMediaCard() {
+export default function About() {
     return (
         <main className='flex container flex-col min-h-screen items-center gap-10'>
             <Card sx={{ maxWidth: 345,  }}>
@@ -24,7 +24,7 @@ export default function ImgMediaCard() {
                         Mateus Pereira Rodrigues
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                        Desenvolverdo Fullstack há mais de 2 anos e meio, apaixonado por tecnologia e conhecimento em geral. Adoro ensinar e passar meus conhecimentos já adquiridos. Veja mais no meu canal! <Link href={"https://www.youtube.com/channel/UCNAiwsbuvi7kQ2eYoXtzPRA"} target='_blank'><strong>Click aqui!</strong></Link> Ou acesse no ícone logo abaixo. 
+                        Desenvolverdo Fullstack há mais de 2 anos e meio, apaixonado por tecnologia e conhecimento em geral. Adoro ensinar e passar meus conhecimentos já adquiridos. Veja mais no meu canal! <Link href={"https://www.youtube.com/channel/UCNAiwsbuvi7kQ2eYoXtzPRA"} target='_blank'><strong>Click aqui!</strong></Link> Ou acesse mais informações, nos ícone logo abaixo. 
                     </Typography>
                 </CardContent>
                 <CardActions className='flex  justify-center  '>

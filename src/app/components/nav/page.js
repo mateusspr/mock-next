@@ -13,17 +13,17 @@ function Nav() {
         </NavbarBrand>
         <NavbarContent className="hidden sm:flex gap-4" justify="center">
           <NavbarItem isActive>
-            <Link href="/blog" aria-current="page">
+            <Link href="/pages/blog" aria-current="page">
               Blog
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link color="foreground" href="/gallery">
+            <Link color="foreground" href="/pages/gallery">
               Galeria
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link color="foreground" href="/about">
+            <Link color="foreground" href="/pages/about">
               Sobre
             </Link>
           </NavbarItem>
