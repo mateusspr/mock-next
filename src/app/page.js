@@ -1,4 +1,3 @@
-import Cards from "./components/cards/page";
 import About from "./pages/about/page";
 
 

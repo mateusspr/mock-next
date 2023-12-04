@@ -31,7 +31,6 @@ const posts = [
             imageUrl: 'https://i.ibb.co/QNRY1fp/pf.jpg',
         },
     }
-    // More posts...
 ]
 
 export default function Blog() {
